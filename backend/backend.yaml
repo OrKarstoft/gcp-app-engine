@@ -1,0 +1,4 @@
+runtime: go123
+service: backend
+env_variables:
+  GCP_PROJECT_ID: "%GCP_PROJECT_ID%"
