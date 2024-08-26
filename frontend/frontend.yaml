@@ -1,4 +1,4 @@
-runtime: go123
+runtime: go122
 service: default
 env_variables:
   GCP_PROJECT_ID: "%GCP_PROJECT_ID%"
