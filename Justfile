@@ -12,7 +12,7 @@ _default:
 
   # Deploy the app
   # The exclemation mark is Just syntax to continue even if the command fails. This will ensure cleanup is always done.
-  ! gcloud app deploy backend/backend.tmp.yaml frontend/frontend.tmp.yaml --project {{GCP_PROJECT_ID}}
+  - gcloud app deploy backend/backend.tmp.yaml frontend/frontend.tmp.yaml --project {{GCP_PROJECT_ID}}
 
   # Clean up the temporary files
   rm frontend/frontend.tmp.yaml
